@@ -189,7 +189,7 @@ public class BackingBean {
                 if(valores.get(i)==valores.get(j)){
                     numRepeticiones++;
                 }
-                else if(numRepeticiones>maximoNumRepeticiones){
+                if(numRepeticiones>maximoNumRepeticiones){
                     moda = valores.get(i);
                     maximoNumRepeticiones = numRepeticiones;
                 }
