@@ -1,5 +1,42 @@
+<<<<<<< HEAD
 0:0:0:0:0:0:0:1 - - [20/Sep/2020:18:38:52 -0500] "GET / HTTP/1.1" 200 63 http-bio-8080-exec-1 430
 0:0:0:0:0:0:0:1 - - [20/Sep/2020:18:38:52 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 14
 0:0:0:0:0:0:0:1 - - [20/Sep/2020:18:38:59 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4834 http-bio-8080-exec-4 455
 0:0:0:0:0:0:0:1 - - [20/Sep/2020:18:38:59 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8080-exec-6 2
 0:0:0:0:0:0:0:1 - - [20/Sep/2020:18:38:59 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8080-exec-7 4
+=======
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:27:36 -0500] "GET / HTTP/1.1" 200 68 http-bio-8081-exec-1 693
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:27:36 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8081-exec-3 4
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4831 http-bio-8081-exec-4 342
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-8 5
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&v=7.0 HTTP/1.1" 200 87020 http-bio-8081-exec-2 11
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/javax.faces.resource/core.js?ln=primefaces&v=7.0 HTTP/1.1" 200 37704 http-bio-8081-exec-6 15
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&v=7.0 HTTP/1.1" 200 267442 http-bio-8081-exec-9 14
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/javax.faces.resource/components.js?ln=primefaces&v=7.0 HTTP/1.1" 200 422192 http-bio-8081-exec-7 37
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/javax.faces.resource/components.css?ln=primefaces&v=7.0 HTTP/1.1" 200 93130 http-bio-8081-exec-5 76
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:14:28:07 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-5 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:08:12 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4856 http-bio-8081-exec-1 361
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:08:12 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-3 16
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:08:12 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:09:58 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4886 http-bio-8081-exec-1 371
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:09:58 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-3 17
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:09:58 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:12:07 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4874 http-bio-8081-exec-1 324
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:12:07 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-3 14
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:12:07 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:12:08 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4873 http-bio-8081-exec-5 17
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:12:08 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:27:59 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4924 http-bio-8081-exec-1 368
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:27:59 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-3 14
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:27:59 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:36:30 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4923 http-bio-8081-exec-1 427
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:36:30 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-3 17
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:36:31 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:42:28 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 4946 http-bio-8081-exec-1 382
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:42:28 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-3 17
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:42:28 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:45:35 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 500 3972 http-bio-8081-exec-1 234
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:45:41 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 500 3972 http-bio-8081-exec-2 54
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:47:04 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 500 3972 http-bio-8081-exec-1 327
+0:0:0:0:0:0:0:1 - - [20/Sep/2020:16:47:08 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 500 3972 http-bio-8081-exec-2 67
+>>>>>>> 2f3c079399a571dfedaaf23daf529f229a9832e8
