@@ -1,0 +1,7 @@
+.vscode/
+.target/
+.classpath
+.project
+.circle.yml
+.Procfile
+.system.properties
