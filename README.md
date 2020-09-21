@@ -17,3 +17,14 @@
 
 4. Prueba de boton restart
     ![restart](./image/restart.png)
+
+5. Codacy review
+    ![Codacy](./image/Codacy.png)
+
+6. Heroku
+    ![Heroku](./image/heroku.png)
+
+    [Heroku](https://dashboard.heroku.com/apps/deploylab6)
+
+7. Circle ci
+    ![Pipelings](./image/pipelins.png)
