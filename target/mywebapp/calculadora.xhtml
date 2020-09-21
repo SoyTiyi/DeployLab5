@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3c.org/1999/xhtml"
+            xmlns:h="http://xmlns.jcp.org/jsf/html"
+            xmlns:p="http://primefaces.org/ui"
+            xmlns:f="http://java.sun.com/jsf/core"
+    >
+        <h:head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link type = "text/css" rel = "stylesheet"  href = "./Style/calculadora.css" />
+            <link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet"/>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+            <title>Lab6</title>
+        </h:head>
+        <h:body style="background-image: url(https://www.bbva.com/wp-content/uploads/2020/03/dia-internacional-matematicas-openmind-bbva-1024x629.jpg);">
+            <div class="container">
+                <div style="background:#35A1E8 !important" class="jumbotron text-center">
+                    <h1 style="color: #cbdfec;"> Lab 6</h1>
+                </div>
+                <h:panelGroup class="panel panel-primary" id="panel_principal" header="Calculadora" >
+                    <h:form id="calculadora_form">
+                        <h:panelGroup layout="block" class="form-group">
+                            <p:outputLabel class="label label-primary" value="Numero para adivinar:" style="color: #cbdfec;" />
+                            <p:outputLabel id="numero" value="#{calculadoraBean.numeroAdivinar}" style="display: none;" />
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" class="form-group">
+                            <p:outputLabel class="label label-primary" value="Lista:" style="color: #cbdfec;"/>
+                            <p:inputText class="form-control" id="valores" type="text" binding="#{input}" placeholder="Enter the list" />
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" class="form-group">
+                            <p:outputLabel class="label label-primary" value="Media:" style="color: #cbdfec;"/>
+                            <p:outputLabel class="label label-primary text-center" value="#{calculadoraBean.media}" style="color: #cbdfec;"/>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" class="form-group">
+                            <p:outputLabel class="label label-primary" value="Desviación Estandar:" style="color: #cbdfec;"/>
+                            <p:outputLabel class="label label-primary" value="#{calculadoraBean.desviacionEstandar}" style="color: #cbdfec;"/>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" class="form-group">
+                            <p:outputLabel class="label label-primary" value="Varianza:" style="color: #cbdfec;"/>
+                            <p:outputLabel class="label label-primary" value="#{calculadoraBean.varianza}" style="color: #cbdfec;"/>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" class="form-group">
+                            <p:outputLabel class="label label-primary" value="Moda:" style="color: #cbdfec;"/>
+                            <p:outputLabel class="label label-primary" value="#{calculadoraBean.moda}" style="color: #cbdfec;"/>
+                        </h:panelGroup>
+                        <h:dataTable value="#{calculadoraBean.intentos}" var="intentos" style="color: #cbdfec;">
+                            <h:column>
+                                <f:facet name="header">
+                                    <h:outputText value="Intentos" style="color: #cbdfec;"/>
+                                </f:facet>
+                                <h:outputText value="#{intentos}" style="color: #cbdfec;"/>
+                            </h:column>
+                        </h:dataTable>
+                    </h:form>
+                </h:panelGroup>
+                <center>
+                    <p:commandButton class="btn btn-primary" value="Send" update="panel_principal" actionListener="#{calculadoraBean.calculate(input.value)}"/>
+                    <p:commandButton class="btn btn-primary" value="Restart" update="panel_principal" actionListener="#{calculadoraBean.restart}"/>
+                </center>
+            </div>
+        </h:body>
+    </html>

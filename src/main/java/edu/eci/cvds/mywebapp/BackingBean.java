@@ -14,9 +14,9 @@ public class BackingBean {
     private ArrayList<Integer> valores;
     private int premioAcumulado;
     private String estado;
-    private int media;
-    private int desviacionEstandar;
-    private int varianza;
+    private double media;
+    private double desviacionEstandar;
+    private double varianza;
     private int moda;
     private ArrayList<ArrayList<Integer>> intentos;
 
@@ -34,15 +34,15 @@ public class BackingBean {
         this.intentos=intentos;
     }
 
-    public int getMedia(){
+    public double getMedia(){
         return media;
     }
 
-    public int getDesviacionEstandar(){
+    public double getDesviacionEstandar(){
         return desviacionEstandar;
     }
 
-    public int getVarianza(){
+    public double getVarianza(){
         return varianza;
     }
 
@@ -50,15 +50,15 @@ public class BackingBean {
         return moda;
     }
 
-    public void setMedia(int media){
+    public void setMedia(double media){
         this.media=media;
     }
 
-    public void setDesviacionEstandar(int desviacionEstandar){
+    public void setDesviacionEstandar(double desviacionEstandar){
         this.desviacionEstandar=desviacionEstandar;
     }
 
-    public void setVarianza(int varianza){
+    public void setVarianza(double varianza){
         this.varianza=varianza;
     }
 
@@ -142,26 +142,29 @@ public class BackingBean {
         moda=calculateMode(valores);
     }
 
-    public int calculateMean(ArrayList<Integer> valores){
+    public double calculateMean(ArrayList<Integer> valores){
         int result=0;
         for(int i=0; i<valores.size(); i++){
             result+=valores.get(i);
         }
-        return result/valores.size();
+        return (double) result/valores.size();
     }
 
-    public int calculateStandarDesviation(ArrayList<Integer> valores){
-        int varianza = calculateVariance(valores);
-        return (int) Math.pow(varianza, 0.5);
+    public double calculateStandarDesviation(ArrayList<Integer> valores){
+        double varianza = calculateVariance(valores);
+        double respuesta = Math.pow(varianza, 0.5);
+        return respuesta;
     }
 
-    public int calculateVariance(ArrayList<Integer> valores){
-        int promedio = calculateMean(valores);
-        int sumatoria=0;
+    public double calculateVariance(ArrayList<Integer> valores) {
+        double promedio = calculateMean(valores);
+        double sumatoria=0.0;
         for(int i=0;i<valores.size();i++){
-            sumatoria+=Math.pow(valores.get(i)-promedio, 2);
+            double x = valores.get(i)-promedio;
+            sumatoria+= (double) Math.pow(x, 2);
         }
-        return sumatoria/(valores.size()-1);
+        double respuesta = sumatoria/(valores.size()); 
+        return respuesta;
     }
 
     public void restart(){
