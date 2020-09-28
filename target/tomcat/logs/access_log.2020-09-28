@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:14 -0500] "GET / HTTP/1.1" 200 63 http-bio-8080-exec-1 430
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:14 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/calculadora.xhtml HTTP/1.1" 200 5216 http-bio-8080-exec-3 434
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8080-exec-9 6
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/javax.faces.resource/core.js?ln=primefaces&v=7.0 HTTP/1.1" 304 - http-bio-8080-exec-8 27
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/javax.faces.resource/components.js?ln=primefaces&v=7.0 HTTP/1.1" 304 - http-bio-8080-exec-7 23
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&v=7.0 HTTP/1.1" 304 - http-bio-8080-exec-6 15
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&v=7.0 HTTP/1.1" 304 - http-bio-8080-exec-10 40
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/javax.faces.resource/components.css?ln=primefaces&v=7.0 HTTP/1.1" 200 93130 http-bio-8080-exec-4 164
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:24 -0500] "GET /faces/Style/calculadora.css HTTP/1.1" 404 993 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:08:25 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:33:28 -0500] "POST /faces/calculadora.xhtml HTTP/1.1" 200 2811 http-bio-8080-exec-9 238
+0:0:0:0:0:0:0:1 - - [28/Sep/2020:13:33:41 -0500] "POST /faces/calculadora.xhtml HTTP/1.1" 200 2937 http-bio-8080-exec-9 36
